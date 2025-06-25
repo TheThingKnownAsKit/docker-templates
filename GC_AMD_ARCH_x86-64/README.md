@@ -8,7 +8,7 @@ Copy the .devcontainer folder into the top level of your repository
 
 Use the search feature to find any instance of PROJECT_NAME or CHANGEME and switch them. Replace all is fine
 
-Ctrl(or CMD) + Shift + P to open commands, then select Dev Containers: Rebuild and Reopen in Container
+Ctrl + Shift + P to open commands, then select Dev Containers: Rebuild and Reopen in Container
 
 It should build correctly
 

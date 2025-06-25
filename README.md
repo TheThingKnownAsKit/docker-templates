@@ -14,6 +14,8 @@ ProjectName/
 ```
 
 # How to Navigate
+IMPORTANT: All of these specifications are relevant to your HOST MACHINE, not the image you want to containerize. All of the images in the provided Dockerfiles install Ubuntu 24.04 in addition to ROS2 Jazzy
+
 GC stands for graphics card
 
 ARCH stands for operating system architecture (either x86-64 or ARM64)
