@@ -18,6 +18,7 @@ GC stands for graphics card
 
 OS stands for operating system
 
-Host machine instructions are given per folder. These include extra commands to run and download instructions
+Host machine instructions are given per folder. These include extra commands to run and download instructions. Note that the AMD graphics card instructions
+will probably also work for most graphics cards that aren't Nvidia. It's basically Nvidia and not Nvidia
 
 Why is AMD graphics card with ARM64 not on here? Because no one will ever need that
