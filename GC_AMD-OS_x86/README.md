@@ -3,12 +3,6 @@ Download docker from one of the below sources (please just use Linux it's so muc
 
 For Linux (make sure to pick your distribution): https://docs.docker.com/desktop/setup/install/linux/
 
-For Windows: https://docs.docker.com/desktop/setup/install/windows-install/
-
-For Mac: https://docs.docker.com/desktop/setup/install/mac-install/ 
-
-
-
 Copy the .devcontainer files into the top level of your repository
 
 Open VSCode and install the Remote Development extension pack from Microsoft
