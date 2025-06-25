@@ -16,7 +16,7 @@ ProjectName/
 # How to Navigate
 GC stands for graphics card
 
-OS stands for operating system
+ARCH stands for operating system architecture (either x86-64 or ARM64)
 
 Host machine instructions are given per folder. These include extra commands to run and download instructions. Note that the AMD graphics card instructions
 will probably also work for most graphics cards that aren't Nvidia. It's basically Nvidia and not Nvidia
