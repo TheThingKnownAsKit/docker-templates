@@ -30,7 +30,7 @@ echo -e 'xt_addrtype\niptable_nat\nnf_nat\nbr_netfilter'
 
 Enable forwarding and bridge hooks
 ```
-udo tee /etc/sysctl.d/99-docker.conf <<'EOF'
+sudo tee /etc/sysctl.d/99-docker.conf <<'EOF'
 net.bridge.bridge-nf-call-iptables = 1
 net.ipv4.ip_forward = 1
 EOF
