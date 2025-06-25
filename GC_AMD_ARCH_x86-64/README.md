@@ -1,16 +1,10 @@
 # Downloads
-Download docker from one of the below sources (please just use Linux it's so much easier): 
-
 For Linux (make sure to pick your distribution): https://docs.docker.com/desktop/setup/install/linux/
-
-Copy the .devcontainer files into the top level of your repository
 
 Open VSCode and install the Remote Development extension pack from Microsoft
 
-Ctrl(or CMD) + Shift + P to open commands, then select Dev Containers: Rebuild and Reopen in Container
-
 # Post Installation Docker Setup
-Copy the .devcontainer files into the top level of your repository
+Copy the .devcontainer folder into the top level of your repository
 
 Use the search feature to find any instance of PROJECT_NAME or CHANGEME and switch them. Replace all is fine
 
@@ -23,11 +17,11 @@ Some things need to be configured on the host machine to give Docker access to t
 
 This was written on an Ubuntu based system
 
-To give Docker access to your network (Linux only), open a new terminal and run: `xhost +local:`
+To give Docker access to your network, open a new terminal and run: `xhost +local:`
 
 Docker also can’t get through your firewall right now (assuming you have one), so run the below commands
 
-one at a time in the host computers terminal (Linux only)
+one at a time in the host computers terminal
 ```
 sudo ufw allow in  proto udp to   224.0.0.0/4
 sudo ufw allow out proto udp from 224.0.0.0/4
