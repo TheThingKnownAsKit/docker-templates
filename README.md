@@ -1,5 +1,5 @@
 # Template Assumptions (READ THIS)
-1. You have the intention of using Docker for ROS2 robotics applications
+1. You have the intention of using Docker for ROS2 (Jazzy or later distribution) robotics applications
 2. You compile with colcon and store relevant folders in share/PROJECTNAME
 3. You are using Linux
 4. Your project follows a structure similar to
